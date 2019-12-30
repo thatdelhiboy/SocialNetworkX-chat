@@ -37,38 +37,38 @@
             }
         }
     });
-    /* features Slider Active
-    =============================*/
-    $('.features').owlCarousel({
-        loop: true,
-        margin: 30,
-        responsiveClass: true,
-        nav: false,
-        autoplay: true,
-        autoplayTimeout: 4000,
-        smartSpeed: 1000,
-        navText: ['<img src="images/arrow-right.png" alt="">', '<img src="images/arrow-left.png" alt="">'],
-        responsive: {
-            0: {
-                items: 1,
-            },
-            480: {
-                items: 2
-            },
-            600: {
-                items: 3
-            },
-            1200: {
-                items: 4
-            },
-            1500: {
-                items: 5
-            },
-            1900: {
-                items: 6
-            }
-        }
-    });
+    // /* features Slider Active
+    // =============================*/
+    // $('.features').owlCarousel({
+    //     loop: true,
+    //     margin: 30,
+    //     responsiveClass: true,
+    //     nav: false,
+    //     autoplay: true,
+    //     autoplayTimeout: 4000,
+    //     smartSpeed: 1000,
+    //     navText: ['<img src="images/arrow-right.png" alt="">', '<img src="images/arrow-left.png" alt="">'],
+    //     responsive: {
+    //         0: {
+    //             items: 1,
+    //         },
+    //         480: {
+    //             items: 2
+    //         },
+    //         600: {
+    //             items: 3
+    //         },
+    //         1200: {
+    //             items: 4
+    //         },
+    //         1500: {
+    //             items: 5
+    //         },
+    //         1900: {
+    //             items: 6
+    //         }
+    //     }
+    // });
     /* gallery Slider Active
     =============================*/
     $('.gallery').owlCarousel({
