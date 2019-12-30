@@ -14,29 +14,7 @@
         scrollSpeed: 900,
         animation: 'fade'
     });
-    /* testimonials Slider Active
-    =============================*/
-    $('.testimonials').owlCarousel({
-        loop: true,
-        margin: 30,
-        responsiveClass: true,
-        nav: true,
-        autoplay: true,
-        autoplayTimeout: 4000,
-        smartSpeed: 1000,
-        navText: ['<img src="images/arrow-right.png" alt="">', '<img src="images/arrow-left.png" alt="">'],
-        responsive: {
-            0: {
-                items: 1,
-            },
-            600: {
-                items: 1
-            },
-            1000: {
-                items: 1
-            }
-        }
-    });
+
     /* gallery Slider Active
     =============================*/
     $('.gallery').owlCarousel({
@@ -142,15 +120,6 @@
     /*-----------------
     Mesonary jQuery
     -------------------*/
-    var $boxes = $('.ms-item');
-    $boxes.hide();
-    var $container = $('.ms-items');
-    $container.imagesLoaded(function () {
-        $boxes.fadeIn();
-        $container.masonry({
-            itemSelector: '.ms-item',
-        });
-    });
     /* Preloader Js
     ===================*/
     $(window).on("load", function () {
