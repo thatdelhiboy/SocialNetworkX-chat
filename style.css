@@ -884,7 +884,8 @@ input:-webkit-autofill:focus {
 }
 
 .home3 .download-area {
-    background: url(images/download-bg-2.jpg) no-repeat scroll left center / auto 100%;
+    background: url(images/download-bg-2.jpg) no-repeat scroll center / auto 100%;
+    text-align: center;
 
 }
 
