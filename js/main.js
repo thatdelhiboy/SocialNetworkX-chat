@@ -37,38 +37,6 @@
             }
         }
     });
-    // /* features Slider Active
-    // =============================*/
-    // $('.features').owlCarousel({
-    //     loop: true,
-    //     margin: 30,
-    //     responsiveClass: true,
-    //     nav: false,
-    //     autoplay: true,
-    //     autoplayTimeout: 4000,
-    //     smartSpeed: 1000,
-    //     navText: ['<img src="images/arrow-right.png" alt="">', '<img src="images/arrow-left.png" alt="">'],
-    //     responsive: {
-    //         0: {
-    //             items: 1,
-    //         },
-    //         480: {
-    //             items: 2
-    //         },
-    //         600: {
-    //             items: 3
-    //         },
-    //         1200: {
-    //             items: 4
-    //         },
-    //         1500: {
-    //             items: 5
-    //         },
-    //         1900: {
-    //             items: 6
-    //         }
-    //     }
-    // });
     /* gallery Slider Active
     =============================*/
     $('.gallery').owlCarousel({
@@ -103,7 +71,7 @@
     MICHIMP INTEGRATION
     -----------------------------*/
     $('#mc-form').ajaxChimp({
-        url: 'https://quomodosoft.us14.list-manage.com/subscribe/post?u=b2a3f199e321346f8785d48fb&amp;id=d0323b0697', //Set Your Mailchamp URL
+        url: '', //Set Your Mailchamp URL
         callback: function (resp) {
             if (resp.result === 'success') {
                 $('.subscribe').fadeOut();
