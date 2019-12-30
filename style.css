@@ -2,34 +2,10 @@
 Template Name: Product Landing Page,
 Template URI: thatdelhiboy.github.io
 Description: This is html5 template
-Author: Themectg
+Author: Abhishek
 Author URI: thatdelhiboy.github.io
 Version: 1.0
------------------------------------------------------------------------------------
-CSS INDEX
-===================
-1. Google font
-2. Theme Default CSS
-3. Helpler-Class
-4. Mainmenu-Area
-5. Header-Area
-6. Service-Box
-7. Social-Area
-   7.1 Counter-Box
-8. Network-Area
-9. Feature-Area
-10. Price-Area
-11. FAQ-Area
-12. Gallery-Area
-13. Team-Area
-14. Testimonial-Area
-16. Download-Area
-17. Footer-Area
-18. Social-Menu
-19. Subscribe-Form
-20. Preloader-Style
-21. ScrollToTop
------------------------------------------------------------------------------------*/
+----------------------------------------------------------------------------------*/
 
 /*-----------------
 1. Google font
@@ -137,7 +113,7 @@ input:-webkit-autofill:focus {
 }
 
 .bttn-icon {
-    padding: 15px 50px;
+    padding: 15px 20px;
     background-color: #22233b;
     color: #ffffff;
     display: inline-block;
@@ -150,7 +126,7 @@ input:-webkit-autofill:focus {
 .bttn-icon:focus,
 .bttn-icon:hover {
     color: #ffffff;
-    background-color: #6858db;
+    background-color: #000000;
     -webkit-box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.4);
     box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.4);
 }
@@ -170,7 +146,7 @@ input:-webkit-autofill:focus {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     font-size: 30px;
-    width: 30px;
+    width: 50px;
 }
 
 .bttn-icon .bttn-content small {
@@ -422,10 +398,6 @@ input:-webkit-autofill:focus {
 }
 
 /*-- 7. Social-Area --*/
-
-.social-logo {
-    margin-bottom: 30px;
-}
 
 
 /*-- 7.1 Counter-Box --*/

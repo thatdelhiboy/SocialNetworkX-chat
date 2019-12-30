@@ -1,3 +1,9 @@
+/* Template Name: Product Landing Page,
+Template URI: thatdelhiboy.github.io
+Description: This is html5 template
+Author: Abhishek
+Author URI: thatdelhiboy.github.io
+Version: 1.0 */
 /* Medium Layout: 1280px. */
 
 @media only screen and (min-width: 1200px) and (max-width: 1500px) {
@@ -251,4 +257,12 @@
 
 /* Wide Mobile Layout: 480px. */
 
-@media only screen and (min-width: 480px) and (max-width: 767px) {}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    #contact-page-last > div > div > div:nth-child(1){
+        text-align: center;
+    }
+    #contact-page-last > div > div > div.col-xs-12.col-sm-2{
+        text-align: center;
+    }
+}
