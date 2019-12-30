@@ -213,7 +213,9 @@ input:-webkit-autofill:focus {
 }
 
 /*-- 4. Mainmenu-Area --*/
-
+.navbar-brand{
+    padding-top: 0;
+}
 .mainmenu-area {
     position: fixed;
     left: 0;
@@ -223,7 +225,7 @@ input:-webkit-autofill:focus {
     border-radius: 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0);
     z-index: 99999;
-    padding-top: 15px;
+    padding-top: 0px;
     padding-bottom: 15px;
     background-color: #ffffff;
     -webkit-transition: 0.3s;
@@ -233,6 +235,7 @@ input:-webkit-autofill:focus {
 
 .mainmenu-area.transparent {
     background: none;
+    height: 100px;
 }
 
 .mainmenu-area.affix {
@@ -258,7 +261,7 @@ input:-webkit-autofill:focus {
     font-weight: 600;
     font-size: 16px;
     color: #56576e;
-    padding: 20px;
+    padding: 35px 20px;
 }
 
 .mainmenu-area ul.nav.navbar-nav>li.active>a,
