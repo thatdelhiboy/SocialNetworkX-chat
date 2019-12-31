@@ -845,7 +845,8 @@ input:-webkit-autofill:focus {
 }
 
 .home3 .mainmenu-area.affix {
-    background-color: #4f208e
+    background-color: #6666ff;
+    border: none;
 }
 
 .home3 .header-area {
