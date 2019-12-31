@@ -216,6 +216,10 @@ input:-webkit-autofill:focus {
 .navbar-brand{
     padding-top: 0;
 }
+.navbar-brand>img{
+    width: 500px;
+    display: block;
+}
 .mainmenu-area {
     position: fixed;
     left: 0;
@@ -820,7 +824,7 @@ input:-webkit-autofill:focus {
     z-index: 1;
 }
 
-.home3 .header-area:before {
+.home3 .header-area:after {
     content: "";
     position: absolute;
     left: 0;
@@ -841,7 +845,7 @@ input:-webkit-autofill:focus {
 }
 
 .home3 .mainmenu-area.affix {
-    background-color: #003073
+    background-color: #4f208e
 }
 
 .home3 .header-area {
