@@ -63,11 +63,8 @@ body {
     font-size: 16px;
     line-height: 1.6em;
     color: #56576e;
-    background: rgb(204, 204, 255);
-    background: -moz-linear-gradient(180deg, rgba(204, 204, 255, 1) 0%, rgba(204, 255, 255, 1) 100%);
-    background: -webkit-linear-gradient(180deg, rgba(204, 204, 255, 1) 0%, rgba(204, 255, 255, 1) 100%);
-    background: linear-gradient(180deg, rgba(204, 204, 255, 1) 0%, rgba(204, 255, 255, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ccccff", endColorstr="#ccffff", GradientType=1);
+    background: #ccccff;
+    background-image: linear-gradient(to bottom, #ccccff, #ccccff, #ccccff, #ccccff, #ccccff);
 }
 
 
@@ -427,6 +424,7 @@ input:-webkit-autofill:focus {
 
 .gallery-area {
     overflow: hidden;
+    background-image: linear-gradient(to bottom, #9999fb, #ccccff, #ccccff, #ccccff, #ccccff);
 }
 
 .full-width {
