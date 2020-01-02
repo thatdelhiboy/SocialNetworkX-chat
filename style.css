@@ -424,7 +424,7 @@ input:-webkit-autofill:focus {
 
 .gallery-area {
     overflow: hidden;
-    background-image: linear-gradient(to bottom, #9999fb, #ccccff, #ccccff, #ccccff, #ccccff);
+    background-image: linear-gradient(to bottom, #9999fb, #a9a9ee, #ccccff, #ccccff, #ccccff);
 }
 
 .full-width {
